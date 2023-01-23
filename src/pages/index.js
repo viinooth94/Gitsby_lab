@@ -2,7 +2,7 @@ import * as React from "react";
 
 import {Home} from "./home.js";
 
-const IndexPage = () =>{
+export const IndexPage = () =>{
   return(
     <Home/>
   )
