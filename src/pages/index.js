@@ -1,11 +1,15 @@
-import * as React from "react";
+import * as React from "react"
 
-import {Home} from "./home.js";
 
-export const IndexPage = () =>{
-  return(
+import { Home }  from "./home.js"
+
+
+const IndexPage = () => {
+  return (
     <Home/>
   )
 }
 
-export default IndexPage;
+export default IndexPage
+
+// export const Head = () => <title>Home Page</title>
